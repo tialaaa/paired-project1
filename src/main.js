@@ -39,7 +39,9 @@ var images = [
   "./assets/runner.jpg",
   "./assets/squirrel.jpg",
   "./assets/tiger.jpg",
-  "./assets/turtle.jpg"
+  "./assets/turtle.jpg",
+  "./assets/IMG_8574 copy.jpg",
+  "./assets/Kona-smile.jpeg"
 ];
 var titles = [
   "determination",
@@ -168,17 +170,15 @@ function buttonMakePosterState() {
     buttonMakePoster.disabled = true;
   } else {
     buttonMakePoster.disabled = false;
-  }
-}
+  };
+};
 
 function loadCustomInstance() {
-
     currentPoster = new Poster(inputImage.value, inputTitle.value, inputQuote.value);
 
     images.push(inputImage.value);
     titles.push(inputTitle.value);
     quotes.push(inputQuote.value);
-    // if we don't change this function, it can be combined with loadCustomPoster
   };
 
 function loadCustomPoster() {
@@ -252,9 +252,3 @@ function deleteSavedPoster() {
     posterToBeDeleted.remove();
   };
 };
-
-
-// REMAINING TASKS:
-// Complete ReadMe (20 mins)
-// Debug input fields to clear on page load -> if value input is empty, use placeholder string instead (1 hour)
-
