@@ -20,8 +20,7 @@ To view/run the application on their own machine:
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-
-![gif of button functionality in the custom poster section] (readme-imgs/App-example.mov)
+![gif showing functionality of the custom poster section](https://user-images.githubusercontent.com/121128718/218340951-2e22fc3f-c807-47f9-91be-7ef2198c250d.gif)
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
@@ -31,7 +30,7 @@ We spent about 21 hours on this project over the course of 5 days. We had days t
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
 
-Priscilla Paxton: https://github.com/priscillaapaxton
+Priscilla Paxton: https://github.com/priscillaapaxton and 
 Tiala Young: https://github.com/tialaaa
 
 ### Learning Goals:
